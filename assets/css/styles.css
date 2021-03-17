@@ -198,4 +198,18 @@
         width: 120px;
         border-radius: 4px;
     }
+    .name-company {
+        text-align: center;
+        display: block;
+    }
+    .footer {
+        text-align: center;
+    }
+}
+
+@media print {
+    .header,
+    .footer {
+        display: none;
+    }
 }
