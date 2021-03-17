@@ -186,6 +186,10 @@
     color: #fb866a;
 }
 
+.img-card {
+    max-width: 20rem;
+}
+
 @media (max-width: 767.98px) {
     .resume-wrapper {
         padding-top: 0;
@@ -209,7 +213,30 @@
 
 @media print {
     .header,
-    .footer {
+    .footer,
+    .btn-scroll-top {
         display: none;
+    }
+    .img-card {
+        max-width: 6rem;
+    }
+    .resume-header {
+        background-image: none !important;
+        background: transparent !important;
+        background-color: transparent !important;
+        color: var(--bg-dark) !important;
+    }
+    .resume-body {
+        margin-top: -7%;
+    }
+    .info-header>h1,
+    p,
+    .icon-header,
+    a {
+        color: #000 !important;
+    }
+    * {
+        text-indent: 0%;
+        letter-spacing: normal;
     }
 }
