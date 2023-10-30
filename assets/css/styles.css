@@ -29,7 +29,7 @@
 .resume-header {
     background: #434E5E;
     color: rgba(255, 255, 255, 0.9);
-    height: 28.5vh;
+    height: 17rem;
 }
 
 .resume-header .picture {
@@ -196,7 +196,7 @@
     }
     .resume-header {
         text-align: center;
-        height: auto;
+        height: 5rem !important;
     }
     .resume-header .picture {
         width: 120px;
