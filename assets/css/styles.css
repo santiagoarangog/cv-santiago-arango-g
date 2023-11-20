@@ -191,12 +191,22 @@
 }
 
 @media (max-width: 767.98px) {
+    .img-card {
+        max-width: 6rem;
+    }
     .resume-wrapper {
         padding-top: 0;
     }
+    .resume-header-container {
+        background: red;
+        justify-content: center;
+        align-items: center;
+    }
     .resume-header {
         text-align: center;
-        height: 5rem !important;
+        height: 22rem !important;
+    }
+    .info-header {
     }
     .resume-header .picture {
         width: 120px;
