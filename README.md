@@ -4,7 +4,7 @@
 
 # CV Curriculum &bull; Santiago Arango Gutierrez
 
-Welcome to the **My Curriculum** of the Software Developer. 
+Welcome to the **My Curriculum** as the Software Developer. 
 
 ## Getting Started
 
